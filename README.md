@@ -8,6 +8,8 @@ Navigate to the root directory of the project
 
 Run `python manage.py runserver` in the command line
 
+The program will run from `http://localhost:8000/`
+
 ## Requirements 
 __Class definition:__ **Place** is the model for the study abroad locations on the website. It has the magic method __ge__, which is a used to compare two locations so that they can be sorted in alphabetical order, and the magic method __str__ for easier use of the database. 
 
